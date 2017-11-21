@@ -40,7 +40,7 @@ public class Client{
         scanner = new Scanner(System.in);    
 	System.out.print("Enter your username: ");
 	name = scanner.nextLine();
-  //name = number; //uncomment for host name to be same as username
+        //name = number; //uncomment for host name to be same as username
 	System.out.print("Enter a valid port for " + number + " to listen on: ");
 	myPort = Integer.parseInt(scanner.nextLine());	   
 	System.out.print("Enter the IP Address of the recipent: ");
