@@ -6,6 +6,11 @@ import java.net.DatagramSocket;
 import java.net.SocketAddress;
 import java.net.SocketException;
 
+
+/////////////////////////////////////////////
+///Author: Yoseph Hasson; GitHub: MDbrosev///
+/////////////////////////////////////////////
+
 public class Server extends Thread{
     private DatagramSocket dgSocket;
     private boolean setbool;
